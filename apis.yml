@@ -1,7 +1,26 @@
 aid: mopub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mopub.png
 name: MoPub
-description: 'MoPub is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: mobile. This profile is a lead awaiting the enrichment pipeline.'
+description: 'MoPub was a mobile advertising and app-monetization platform providing
+  ad-network mediation, advanced bidding, and a real-time marketplace/exchange plus
+  open-source iOS and Android SDKs for mobile publishers. Founded in 2010, it was acquired
+  by Twitter in 2013, then sold to AppLovin for $1.05B in a deal that closed January
+  2022. AppLovin migrated publishers to its MAX platform and shut down MoPub''s mediation,
+  advanced bidding, and marketplace on 2022-03-31, with dashboard/reporting retired
+  by 2022-04-30. MoPub is now defunct: www.mopub.com redirects to applovin.com and
+  the developer/API surface (developers.mopub.com) is offline. This profile is retained
+  as a historical/defunct record; there is no live MoPub API to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/mopub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +28,21 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: applovin
+x-shutdown: '2022-04-30'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Mobile
+- Advertising
+- AdTech
+- Monetization
+- Mediation
+- SDK
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.mopub.com
+  url: https://www.mopub.com
+- type: GitHubOrganization
+  url: https://github.com/mopub
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
